@@ -1,0 +1,19 @@
+name: Hello
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say Hello
+        run: echo "Hello World!"
+
+      - name: Show GitHub user
+        run: echo "Triggered by $GITHUB_ACTOR"
+
+      - name: Show repository
+        run: echo "Repository is $GITHUB_REPOSITORY"
