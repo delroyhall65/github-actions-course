@@ -17,3 +17,7 @@ jobs:
 
       - name: Show repository
         run: echo "Repository is $GITHUB_REPOSITORY"
+
+        - name: Show current date 
+        run: date 
+
