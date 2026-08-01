@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Say Hello
-        run: echo "Hello World!"
+        run: echo "Hello Delroy, welcome to GitHub Actions!"
 
       - name: Show GitHub user
         run: echo "Triggered by $GITHUB_ACTOR"
